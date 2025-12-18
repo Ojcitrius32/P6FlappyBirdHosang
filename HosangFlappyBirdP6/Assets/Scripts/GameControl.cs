@@ -36,7 +36,7 @@ public class GameControl : MonoBehaviour
     }
     public void BirdScored()
     {
-        if (!gameover)
+        if (gameover)
         {
             return;
         }
